@@ -1,0 +1,18 @@
+2026/04/29-19:54:19.509 12b48 Reusing MANIFEST D:\JD Advocacia\OneDrive - Julian Davis Advocacia\Área de Trabalho\meu-bot-whatsapp\.wwebjs_auth\session-whatsapp-ai-bot\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/04/29-19:54:19.510 12b48 Recovering log #113
+2026/04/29-19:54:19.539 12b48 Reusing old log D:\JD Advocacia\OneDrive - Julian Davis Advocacia\Área de Trabalho\meu-bot-whatsapp\.wwebjs_auth\session-whatsapp-ai-bot\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000113.log 
+2026/04/29-19:54:25.869 12b48 Level-0 table #121: started
+2026/04/29-19:54:25.885 12b48 Level-0 table #121: 1495959 bytes OK
+2026/04/29-19:54:25.886 12b48 Delete type=0 #113
+2026/04/29-19:54:26.527 12b48 Compacting 1@1 + 4@2 files
+2026/04/29-19:54:26.630 12b48 Generated table #122@1: 67909 keys, 2238968 bytes
+2026/04/29-19:54:26.656 12b48 Generated table #123@1: 20958 keys, 2178757 bytes
+2026/04/29-19:54:26.685 12b48 Generated table #124@1: 45360 keys, 2176916 bytes
+2026/04/29-19:54:26.727 12b48 Generated table #125@1: 85131 keys, 2188546 bytes
+2026/04/29-19:54:26.727 12b48 Compacted 1@1 + 4@2 files => 8783187 bytes
+2026/04/29-19:54:26.727 12b48 compacted to: files[ 0 0 4 0 0 0 0 ]
+2026/04/29-19:54:26.728 12b48 Delete type=2 #115
+2026/04/29-19:54:26.728 12b48 Delete type=2 #116
+2026/04/29-19:54:26.728 12b48 Delete type=2 #117
+2026/04/29-19:54:26.728 12b48 Delete type=2 #118
+2026/04/29-19:54:26.728 12b48 Delete type=2 #121
