@@ -15,11 +15,16 @@ const http = require("http");
 const pino = require("pino");
 
 // ─── Configuração ─────────────────────────────────────────────────
-const anthropic = new Anthropic({
-  apiKey: process.env.ANTHROPIC_API_KEY,
-});
+const apiKey = process.env.ANTHROPIC_API_KEY;
+console.log("🔑 Chave API detectada:", apiKey ? "SIM ✅" : "NÃO ❌");
+console.log("🔑 Todas as variáveis:", Object.keys(process.env).filter(k => !k.includes("npm")).join(", "));
 
-console.log("🔑 Chave API detectada:", process.env.ANTHROPIC_API_KEY ? "SIM ✅" : "NÃO ❌");
+if (!apiKey) {
+  console.error("❌ ANTHROPIC_API_KEY não encontrada! Verifique as variáveis de ambiente.");
+  process.exit(1);
+}
+
+const anthropic = new Anthropic({ apiKey });
 
 const conversationHistory = new Map();
 let currentQRUrl = null;
